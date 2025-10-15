@@ -1,0 +1,15 @@
+[package]
+name = "counter"
+version = "0.1.0"
+
+[addresses]
+counter = "0x361f6bfe412aff1f39c2535589043c6267ace826b94ff907c1022a1e6db7996b"   # replace with your testnet account
+std = "0x1"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", rev = "main", subdir = "aptos-move/framework" }
+
+
+
+
+
